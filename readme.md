@@ -2,6 +2,8 @@
 
 Bienvenue sur le dépôt GitHub de "La vue des dragons" ! Ce projet est une simple page HTML et CSS conçue pour vous aider à apprendre comment créer des arrière-plans avec du texte clair par-dessus.
 
+<img style="display:block;margin:auto" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm9ydDJsaHQ0YWV5YjNhbzY5ZzNlZHJyeWNjNzB1MXZidjNmbXRqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46CwJ38lUxvew62I/giphy.webp" >
+
 ## Aperçu
 
 Ce projet utilise une image de fond avec un filtre pour créer un effet de flou et de transparence, permettant au texte de rester lisible. Le texte est centré et stylisé pour une meilleure lisibilité et esthétique.
