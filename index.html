@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+
+            header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                height: 100vh;
+                background-image: url('./background.jpg');
+                background-size: cover;
+                text-align: center;
+
+                .filtre {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgb(20, 1, 132);
+                    filter: blur(125px) opacity(0.5);
+                }
+
+                .element {
+                    position: absolute;
+                    width: 60%;
+
+                    h1 {
+                        text-transform: uppercase;
+                        font-size: 3rem;
+                    }
+
+                    p {
+                        font-size: 1.2rem;
+                        text-align: justify;
+                        line-height: 1.4rem;
+                    }
+
+                    button {
+                        padding: 10px 20px;
+                        background-color: rgb(199, 17, 17);
+                        text-transform: uppercase;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        letter-spacing: .2rem;
+                        font-size: 1.5rem;
+                    }
+
+                    button:hover {
+                        background-color: rgb(219, 0, 0);
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="filtre"></div>
+        <div class="element">
+            <h1>La vue des dragons</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla recusandae et possimus, accusamus
+                labore quaerat incidunt ratione atque eveniet blanditiis repudiandae dolorem aspernatur provident quae
+                corporis. Dolorem, quasi minus?
+                Impedit eveniet quae, dicta quaerat iste sint nisi distinctio ea saepe fugit debitis incidunt recusandae
+                earum eligendi similique quasi? Nobis dolor doloribus cupiditate quaerat quae blanditiis adipisci
+                repudiandae quidem dolores!</p>
+            <button>Commander un dragon</button>
+        </div>
+    </header>
+
+</body>
+
+</html>
